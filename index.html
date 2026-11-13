@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Computer World - Your Tech Partner</title>
+
+    <!-- Google Fonts for clean typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Vite injected styles -->
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="/logo.jpg" alt="THE COMPUTER WORLD Logo" class="logo-icon" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover;">
+                <div class="logo-text">
+                    <h3>THE COMPUTER WORLD</h3>
+                    <span>Your Tech Partner</span>
+                </div>
+            </div>
+            <nav>
+                <!-- Simple anchor links for smooth scrolling -->
+                <a href="#services" style="text-decoration: none; color: var(--primary-dark); font-weight: 600; margin-right: 20px; font-size: 0.9rem;">Services</a>
+                <a href="#contact" class="btn" style="padding: 8px 20px; font-size: 0.85rem;">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <img src="/logo.jpg" alt="THE COMPUTER WORLD Logo" class="hero-logo" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 5px solid var(--white); box-shadow: 0 15px 40px rgba(217, 119, 6, 0.4);">
+            <h1><span style="color: var(--accent-gold);">THE</span> COMPUTER <span>WORLD</span></h1>
+            <p class="tagline">Your Trusted Tech Partner in Jaipur</p>
+            <p style="color: var(--secondary-text); max-width: 600px; margin: 0 auto 30px; font-size: 1.05rem;">
+                Premium quality laptops, desktops, custom PC builds, CCTV installations, and professional repair services. Visit us at Gaurav Tower, Malviya Nagar.
+            </p>
+
+            <!-- Product Showcase -->
+            <div class="product-showcase">
+                <div class="product-card">
+                    <img src="/laptop.jpg" alt="Laptops & Notebooks" loading="lazy">
+                    <div class="info">Laptops & Notebooks</div>
+                </div>
+                <div class="product-card">
+                    <img src="/custom-pc.avif" alt="Custom PC Builds" loading="lazy">
+                    <div class="info">Custom PC Builds</div>
+                </div>
+                <div class="product-card">
+                    <img src="/printer.jpg" alt="Printers" loading="lazy">
+                    <div class="info">Printers</div>
+                </div>
+                <div class="product-card">
+                    <img src="/cctv.avif" alt="CCTV Security" loading="lazy">
+                    <div class="info">CCTV Security</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p style="margin: 0 auto;">We offer a comprehensive suite of IT solutions tailored to meet both personal and enterprise-level tech requirements.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                    </div>
+                    <div class="service-text">
+                        <h4>New Laptops</h4>
+                        <p>Latest generation models with official warranty.</p>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                    </div>
+                    <div class="service-text">
+                        <h4>Desktops</h4>
+                        <p>Pre-assembled high-performance office desktops.</p>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    </div>
+                    <div class="service-text">
+                        <h4>Gaming Laptops</h4>
+                        <p>High refresh rate and RGB keyboard configurations.</p>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <div class="service-text">
+                        <h4>Refurbished Laptops</h4>
+                        <p>Cost-effective, tested, and reliable used laptops.</p>
+                    </div>
+                </div>
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                    </div>
+                    <div class="service-text">
+                        <h4>Custom PC Build</h4>
+                        <p>Tailor-made desktops optimized for gaming or workflows.</p>
+                    </div>
+                </div>
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 17l5-5-5-5"/><path d="M19 12H9M5 12H4"/></svg>
+                    </div>
+                    <div class="service-text">
+                        <h4>Laptop Repairing</h4>
+                        <p>Hardware & software troubleshooting at competitive prices.</p>
+                    </div>
+                </div>
+                <!-- Service 7 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 5.5-9 10-9 10s-9-4.5-9-10a9 9 0 0 1 18 0z"/></svg>
+                    </div>
+                    <div class="service-text">
+                        <h4>Software Services</h4>
+                        <p>OS installation, antivirus setup, and data backup.</p>
+                    </div>
+                </div>
+                <!-- Service 8 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M6 17h6M6 21h6"/></svg>
+                    </div>
+                    <div class="service-text">
+                        <h4>Printers</h4>
+                        <p>Sales, maintenance, and ink refilling services.</p>
+                    </div>
+                </div>
+                <!-- Service 9 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 12a9 9 0 1 1-6.2-8.6"/><path d="M23 3v5h-5"/></svg>
+                    </div>
+                    <div class="service-text">
+                        <h4>CCTV</h4>
+                        <p>Secure your premises with professional camera setups.</p>
+                    </div>
+                </div>
+                <!-- Service 10 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 0-4 19.5V22h8v-2.5A10 10 0 0 0 12 2z"/><path d="M9 12l2 2 4-4"/></svg>
+                    </div>
+                    <div class="service-text">
+                        <h4>Data Recovery</h4>
+                        <p>Recover lost files from damaged hard drives.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p style="margin: 0 auto;">Visit our physical store in Jaipur or contact us directly via phone, email, or social media.</p>
+            </div>
+
+            <div class="contact-container">
+                <!-- Digital Business Card (Dark styled to match card layout) -->
+                <div class="business-card">
+                    <div class="bc-owner">Uttam Singh</div>
+                    <span class="bc-role">Founder & Owner</span>
+
+                    <div class="bc-detail">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <div>
+                            <strong>Address</strong>
+                            <span>Shop no FFS20, 1st Floor,<br>Gaurav Tower, Malviya Nagar,<br>Jaipur, Rajasthan 302017.</span>
+                        </div>
+                    </div>
+
+                    <div class="bc-detail">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        <div>
+                            <strong>Phone Numbers</strong>
+                            <span>8209441068 (WhatsApp)<br>7648887773<br>0141-4486021</span>
+                        </div>
+                    </div>
+
+                    <div class="bc-detail">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="M22 6l-8.5 8.5L4 6"/></svg>
+                        <div>
+                            <strong>Email</strong>
+                            <span>thecomputerworld3@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="bc-detail">
+                        <span style="color: var(--accent-gold); font-size: 1.2rem; font-weight: 700;">@</span>
+                        <div>
+                            <strong>Instagram</strong>
+                            <span>@thecomputerworld2025</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Actions Column -->
+                <div class="contact-info-card">
+                    <h3>Quick Contact Actions</h3>
+
+                    <!-- Google Review Button -->
+                    <a href="https://g.page/thecomputerworld/review" target="_blank" class="btn btn-outline" style="width: 100%; margin-bottom: 15px; justify-content: flex-start; padding: 15px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" style="margin-right: 10px;" aria-hidden="true">
+                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                            <path fill="#FBBC05" d="M5.84 14.1c-.22-.66-.35-1.36-.35-2.1s.13-1.44.35-2.1V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.62z" />
+                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                        </svg> Leave a Google Review
+                    </a>
+
+                    <!-- Instagram Button -->
+                    <a href="https://instagram.com/thecomputerworld2025" target="_blank" class="btn btn-outline" style="width: 100%; margin-bottom: 15px; justify-content: flex-start; padding: 15px;">
+                        <img src="/instagram-logo.jpg" alt="Instagram" style="width: 30px; height: 30px; border-radius: 50%; object-fit: cover; margin-right: 10px;"> Follow us on Instagram
+                    </a>
+
+                    <!-- WhatsApp Button -->
+                    <a href="https://wa.me/918209441068" target="_blank" class="btn btn-outline" style="width: 100%; justify-content: flex-start; padding: 15px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#25D366" style="margin-right: 10px;" aria-hidden="true">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.573-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.99c-.002 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.05 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                        </svg> WhatsApp Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">THE COMPUTER WORLD</div>
+            <span class="footer-tagline">Your Tech Partner</span>
+            <p>
+                Providing high-quality computer hardware, professional repair services, and reliable CCTV installations to the local community of Jaipur. Visit our shop today for all your tech needs!
+            </p>
+            <div class="footer-bottom">
+                &copy; <span id="year">2024</span> The Computer World. All rights reserved. Designed & Developed locally in Jaipur.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simple JavaScript for year update and smooth scroll -->
+    <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
