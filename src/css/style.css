@@ -299,13 +299,14 @@ header {
 }
 
 .business-card {
-  background: linear-gradient(135deg, var(--primary-dark) 0%, #111827 100%);
-  color: var(--white);
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  color: var(--primary-dark);
   border-radius: 16px;
   padding: 40px;
-  box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.15);
   position: relative;
   overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .business-card::before {
@@ -317,14 +318,14 @@ header {
   height: 150px;
   background: var(--accent-gold);
   border-radius: 0 0 0 100%;
-  opacity: 0.1;
+  opacity: 0.08;
 }
 
 .bc-owner {
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 5px;
-  color: var(--white);
+  color: var(--primary-dark);
 }
 
 .bc-role {
@@ -355,12 +356,12 @@ header {
   display: block;
   font-size: 0.8rem;
   text-transform: uppercase;
-  color: #9ca3af;
+  color: var(--accent-gold);
   letter-spacing: 0.5px;
 }
 
 .bc-detail span {
-  color: var(--white);
+  color: var(--primary-dark);
   font-weight: 500;
 }
 
